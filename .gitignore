@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# PyCharm project settings
+.idea/
+
+# Orion-specific exclusions
+user_data/characters/Orion/memory_header.json
+user_data/characters/Orion/orion_api_schema.yaml
+output.txt
+*.log
+*.gguf
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.tmp
